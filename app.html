@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="App details from the CMD Lab App Library.">
+    <title>App Details · CMD Lab App Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="detail">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="CMD Lab App Library home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>CMD Lab</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#library">App Library</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contribute">Contribute</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="detail-main">
+      <div id="detail-loading" class="detail-message">Loading app details…</div>
+      <article id="app-detail" hidden>
+        <a class="back-link" href="index.html#library"><span aria-hidden="true">←</span> Back to App Library</a>
+        <header class="detail-hero">
+          <div id="detail-meta" class="card-meta"></div>
+          <h1 id="detail-name"></h1>
+          <p id="detail-summary"></p>
+          <a id="official-link" class="button button-primary" target="_blank" rel="noopener noreferrer">Official website <span aria-hidden="true">↗</span></a>
+        </header>
+
+        <div class="detail-grid">
+          <section aria-labelledby="overview-title">
+            <p class="detail-number">01</p>
+            <h2 id="overview-title">What is this app?</h2>
+            <p id="detail-overview"></p>
+          </section>
+          <section aria-labelledby="works-title">
+            <p class="detail-number">02</p>
+            <h2 id="works-title">How does it work?</h2>
+            <p id="detail-how"></p>
+          </section>
+          <section aria-labelledby="uses-title">
+            <p class="detail-number">03</p>
+            <h2 id="uses-title">What CMD Lab members can do</h2>
+            <ul id="detail-uses"></ul>
+          </section>
+          <section aria-labelledby="use-case-title">
+            <p class="detail-number">04</p>
+            <h2 id="use-case-title">Suggested CMD Lab use case</h2>
+            <p id="detail-use-case"></p>
+          </section>
+          <section aria-labelledby="pros-title">
+            <p class="detail-number">05</p>
+            <h2 id="pros-title">Pros</h2>
+            <ul id="detail-pros"></ul>
+          </section>
+          <section aria-labelledby="cons-title">
+            <p class="detail-number">06</p>
+            <h2 id="cons-title">Cons / considerations</h2>
+            <ul id="detail-cons"></ul>
+          </section>
+        </div>
+
+        <section class="detail-resources" aria-labelledby="resources-title">
+          <div>
+            <p class="eyebrow">Continue exploring</p>
+            <h2 id="resources-title">Resources</h2>
+          </div>
+          <div>
+            <h3>Example videos</h3>
+            <ul id="detail-videos" class="resource-links"></ul>
+            <h3>Owner / contact</h3>
+            <p id="detail-owner"></p>
+          </div>
+        </section>
+      </article>
+
+      <section id="not-found" class="not-found" hidden>
+        <p class="eyebrow">404 · App not found</p>
+        <h1>This app is not in the library.</h1>
+        <p>The link may be incorrect, or the app entry may have changed.</p>
+        <a class="button button-primary" href="index.html#library">Back to App Library</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>CMD Lab · EdUHK</p>
+      <p>Creative tools for shared practice · <span id="current-year"></span></p>
+    </footer>
+  </body>
+</html>
