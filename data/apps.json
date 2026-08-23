@@ -1,0 +1,122 @@
+{
+  "apps": [
+    {
+      "id": "touchdesigner",
+      "name": "TouchDesigner",
+      "category": "Live Visuals",
+      "status": "Suggested",
+      "shortDescription": "Build real-time audiovisual systems for interactive media, projection, and live performance.",
+      "overview": "A node-based visual programming platform for real-time audiovisual works, interactive media, projection, and live performance.",
+      "howItWorks": "It receives inputs such as live audio, MIDI, OSC, webcam, or sensors and maps them to real-time visuals and media outputs.",
+      "memberUses": [
+        "Audio-reactive visuals for original compositions",
+        "MIDI-reactive visuals for live performers",
+        "Interactive installations",
+        "Projection-based audiovisual performance"
+      ],
+      "pros": [
+        "Strong for real-time audiovisual performance",
+        "Supports MIDI, audio, OSC, Python, video, and sensors",
+        "Free Non-Commercial version for learning and prototypes"
+      ],
+      "cons": [
+        "Steep learning curve",
+        "Requires a capable GPU for complex live visuals",
+        "Needs technical rehearsal and a backup video for performances"
+      ],
+      "suggestedUseCase": "Create an audio-reactive visual scene for one original CMD Lab composition, then export a backup video for the performance.",
+      "officialUrl": "https://derivative.ca/",
+      "exampleVideos": [
+        "https://www.youtube.com/watch?v=wE8cWjCL9EI",
+        "https://www.youtube.com/watch?v=VrdUL2gvyvI"
+      ],
+      "owner": "To be assigned by the CMD Lab committee",
+      "keywords": ["visual programming", "projection", "MIDI", "OSC", "sensors", "audio reactive"]
+    },
+    {
+      "id": "ableton-live",
+      "name": "Ableton Live",
+      "category": "Recording & Production",
+      "status": "Recommended",
+      "shortDescription": "Compose, record, arrange, and perform music with a flexible clip-based workflow.",
+      "overview": "A digital audio workstation designed for music production and live performance.",
+      "howItWorks": "Arrangement View supports timeline-based production, while Session View launches musical clips and scenes in real time. MIDI devices and effects can be mapped for performance control.",
+      "memberUses": ["Produce original tracks", "Launch stems and loops live", "Design sounds with instruments and effects", "Record rehearsal demos"],
+      "pros": ["Strong connection between studio production and live performance", "Flexible MIDI mapping", "Large learning ecosystem"],
+      "cons": ["Paid software", "Full projects can demand substantial CPU and storage", "Live sets require careful file and plugin management"],
+      "suggestedUseCase": "Prepare a Session View set with stems, click tracks, and mapped controls for a CMD Lab performance.",
+      "officialUrl": "https://www.ableton.com/live/",
+      "exampleVideos": ["https://www.youtube.com/@Ableton"],
+      "owner": "To be assigned by the CMD Lab committee",
+      "keywords": ["DAW", "MIDI", "loops", "recording", "mixing", "live set"]
+    },
+    {
+      "id": "sonic-pi",
+      "name": "Sonic Pi",
+      "category": "Music Education",
+      "status": "Suggested",
+      "shortDescription": "Learn coding and musical thinking through accessible live-coded composition.",
+      "overview": "A free live-coding environment created for making and teaching music through code.",
+      "howItWorks": "Users write short Ruby-like commands to play notes, samples, loops, and effects, then update the code while the music continues.",
+      "memberUses": ["Teach musical patterns through code", "Perform live coding", "Generate rhythmic and melodic ideas", "Explore algorithmic composition"],
+      "pros": ["Free and beginner-friendly", "Immediate sound feedback", "Useful for connecting computational and musical thinking"],
+      "cons": ["Text-based interaction may challenge some learners", "Less suitable for detailed multitrack production", "Complex performances still require coding practice"],
+      "suggestedUseCase": "Run a short workshop in which members transform a simple loop by changing rhythm, pitch, and timbre in code.",
+      "officialUrl": "https://sonic-pi.net/",
+      "exampleVideos": ["https://www.youtube.com/@SonicPi"],
+      "owner": "To be assigned by the CMD Lab committee",
+      "keywords": ["live coding", "coding", "algorithmic composition", "education", "Ruby"]
+    },
+    {
+      "id": "max-msp",
+      "name": "Max/MSP",
+      "category": "Interactive Media",
+      "status": "Advanced",
+      "shortDescription": "Patch together custom systems for sound, media, sensors, and interactive performance.",
+      "overview": "A visual programming environment for building custom audio, video, and interactive media tools.",
+      "howItWorks": "Users connect functional objects in a patch. Messages, audio signals, MIDI, and sensor data flow between the objects to create an interactive system.",
+      "memberUses": ["Build custom effects and instruments", "Connect sensors to sound", "Prototype interactive installations", "Create rule-based composition systems"],
+      "pros": ["Highly flexible", "Strong audio and MIDI capabilities", "Supports custom interfaces and external hardware"],
+      "cons": ["Paid software", "Patches can become difficult to maintain", "Requires time to learn signal flow and debugging"],
+      "suggestedUseCase": "Prototype a small sensor-controlled instrument with one clearly defined musical interaction before expanding the patch.",
+      "officialUrl": "https://cycling74.com/products/max",
+      "exampleVideos": ["https://www.youtube.com/@cycling74com"],
+      "owner": "To be assigned by the CMD Lab committee",
+      "keywords": ["visual programming", "MSP", "MIDI", "sensors", "interactive installation", "patching"]
+    },
+    {
+      "id": "chrome-music-lab",
+      "name": "Chrome Music Lab",
+      "category": "Music Education",
+      "status": "Beginner-friendly",
+      "shortDescription": "Explore sound and musical concepts through simple browser-based experiments.",
+      "overview": "A collection of free web experiments that make musical concepts visible and interactive.",
+      "howItWorks": "Each experiment focuses on an idea such as rhythm, melody, harmonics, or sound waves and provides direct visual feedback in a web browser.",
+      "memberUses": ["Introduce music concepts", "Create short melodic sketches", "Demonstrate sound visually", "Design low-barrier classroom activities"],
+      "pros": ["Free with no installation", "Simple and accessible interface", "Useful for short classroom demonstrations"],
+      "cons": ["Limited editing depth", "Some activities require internet access", "Outputs are less flexible than a full DAW"],
+      "suggestedUseCase": "Use Song Maker for a short composition task, followed by a discussion of pattern, form, and instrumentation choices.",
+      "officialUrl": "https://musiclab.chromeexperiments.com/",
+      "exampleVideos": ["https://www.youtube.com/@GoogleChrome"],
+      "owner": "To be assigned by the CMD Lab committee",
+      "keywords": ["browser", "Song Maker", "visualisation", "classroom", "rhythm", "melody"]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "category": "AI Tools",
+      "status": "Explore critically",
+      "shortDescription": "Generate music from text prompts for rapid ideation and critical AI exploration.",
+      "overview": "A generative AI music platform that creates songs and instrumental material from text-based instructions.",
+      "howItWorks": "Users describe musical characteristics or lyrics in a prompt. The service generates audio options that can be reviewed, revised, or used as references for further work.",
+      "memberUses": ["Compare prompt variations", "Generate references for arranging discussions", "Critique AI-generated musical form", "Explore authorship and ethics in music education"],
+      "pros": ["Rapid idea generation", "Low technical barrier", "Useful for discussing prompt design and AI literacy"],
+      "cons": ["Terms, access limits, and output rights require checking", "Outputs may be generic or inconsistent", "Should not replace members’ compositional decision-making"],
+      "suggestedUseCase": "Compare two prompt-generated drafts, identify their musical limitations, and recompose one idea through human performance and arrangement.",
+      "officialUrl": "https://suno.com/",
+      "exampleVideos": ["https://www.youtube.com/@SunoAI"],
+      "owner": "To be assigned by the CMD Lab committee",
+      "keywords": ["generative AI", "prompt", "music generation", "AI literacy", "ethics", "ideation"]
+    }
+  ]
+}
